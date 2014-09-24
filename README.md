@@ -1,4 +1,4 @@
-group-chart-app
+group-chat-app
 ===============
 
 Project 1
