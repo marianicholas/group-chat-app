@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+    background-color: #D2D7D3;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+ }
+
+ ul { 
+    margin: 0;
+    padding: 0;
+}
+
+ hr.thin-rule {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+	font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 3px;  
+}
+
+ .nonwindow .teamname {
+	font-size: 24px;
+	font-weight: 700;
+	color: #3A539B;
+}
+
+ .nonwindow .roomname {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: -25px;
+	color: #6C7A89;
+}
+
+.searchbox {
+	background-color: #ffffff;
+	border: 1px solid #95A5A6;
+	width: 350px;
+	border-radius: 20px;
+    height: 35px;
+    line-height: 5px;                  
+}
+
+.searchbox .searchtext {
+	font-size: 0.9em;
+}
+
+.nonwindow {
+	width: 375px;
+	height: 800px;
+	margin-left: 50px;
+	float: left;
+}
+
+.nonwindow .inroomname {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.nonwindow #user-list li {
+	list-style-type: none;
+}
+
+.nonwindow #user-list img {
+	margin-bottom: 5px;
+	border: 1px solid #ABB7B7;
+}
+
+.nonwindow #user-list span {
+	margin-left: 10px;
+	vertical-align: 25px;
+	font-weight: 700;
+}
+
+.chatwindow {
+	background-color: #ffffff;
+	border: 1px solid #95A5A6;
+	width: 825px;
+	margin-top: 30px;
+	float: left;
+	overflow-y: auto;
+	height: 575px;
+}
+
+.chatwindow .messagetext {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 35px;
+}
+
+.chatwindow .messagetext span {
+	font-size: .7em;
+	font-weight: 400;
+	color: #666666;
+}
+
+.window-bottom {
+	background-color: #ffffff;
+	border: 1px solid #95A5A6;
+	width: 825px;
+	float: left;
+	vertical-align: middle;
+}
+
+.window-bottom img {
+	padding: 10px;
+	float: left;
+
+}
+
+.window-bottom .input-field {
+  	width: 600px;
+  	height: 35px;
+	background-color: #EEEEEE;
+	border: 1px solid #95A5A6;
+	float: left;
+	margin-top: 15px;
+}
