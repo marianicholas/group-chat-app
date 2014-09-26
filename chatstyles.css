@@ -1,6 +1,6 @@
 body {
-	margin: 0;
-    background-color: #D2D7D3;
+    margin: 0;
+    background-color: #6C7A89;
     font-family: "Roboto", sans-serif; 
     font-weight: 400;
  }
@@ -8,9 +8,10 @@ body {
  ul { 
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
- hr.thin-rule {
+hr.thin-rule {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -18,7 +19,7 @@ body {
 }
 
 button {
-	font-family: "Roboto", sans-serif; 
+    font-family: "Roboto", sans-serif; 
     font-weight: 400;
     font-size: 1.1em;
     padding: 5px 10px;
@@ -26,100 +27,113 @@ button {
     border-radius: 3px;  
 }
 
- .nonwindow .teamname {
-	font-size: 24px;
-	font-weight: 700;
-	color: #3A539B;
+.a-identifier-content {
+    width: 300px;
+    margin-left: 50px;
+    float: left;
 }
 
- .nonwindow .roomname {
-	font-size: 20px;
-	font-weight: 400;
-	margin-top: -25px;
-	color: #6C7A89;
+#logo img {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: -10px;
 }
 
-.searchbox {
-	background-color: #ffffff;
-	border: 1px solid #95A5A6;
-	width: 350px;
-	border-radius: 20px;
-    height: 35px;
-    line-height: 5px;                  
+.room-name {
+    font-size: 2em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: -10px;
 }
 
-.searchbox .searchtext {
-	font-size: 0.9em;
+.search {
+    width: 275px;
+    height: 30px;
+    border: 0;
 }
 
-.nonwindow {
-	width: 375px;
-	height: 800px;
-	margin-left: 50px;
-	float: left;
+input .placeholder {
+    font-size: 2em;
 }
 
-.nonwindow .inroomname {
-	font-size: 1em;
-	font-weight: 700;
+.a-identifier-content .user-list li {
+    list-style-type: none;
 }
 
-.nonwindow #user-list li {
-	list-style-type: none;
+.a-identifier-content .user-list img {
+    margin-bottom: 10px;
+    border: 1px solid #ABB7B7;
 }
 
-.nonwindow #user-list img {
-	margin-bottom: 5px;
-	border: 1px solid #ABB7B7;
+.a-identifier-content .user-list span {
+    margin-left: 10px;
+    vertical-align: 30px;
+    font-weight: 700;
+    color: #EEEEEE;
 }
 
-.nonwindow #user-list span {
-	margin-left: 10px;
-	vertical-align: 25px;
-	font-weight: 700;
+.a-identifier-content .identifier-text {
+    color: #EEEEEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.chatwindow {
-	background-color: #ffffff;
-	border: 1px solid #95A5A6;
-	width: 825px;
-	margin-top: 30px;
-	float: left;
-	overflow-y: auto;
-	height: 575px;
+.b-chat-content {
+    width: 800px; 
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    height: 600px;
 }
 
-.chatwindow .messagetext {
-	font-size: 1em;
-	font-weight: 400;
-	margin: 35px;
+.b-chat-content .content {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
 }
 
-.chatwindow .messagetext span {
-	font-size: .7em;
-	font-weight: 400;
-	color: #666666;
+.b-chat-content .content span {
+    font-size: .7em;
+    font-weight: 400;
+    color: #666666;
 }
 
 .window-bottom {
-	background-color: #ffffff;
-	border: 1px solid #95A5A6;
-	width: 825px;
-	float: left;
-	vertical-align: middle;
+    background-color: #95A5A6;
+    width: 800px;
+    float: left;
+    margin-left: 50px;
 }
 
 .window-bottom img {
-	padding: 10px;
-	float: left;
-
+    padding: 10px;
+    float: left;
 }
 
-.window-bottom .input-field {
-  	width: 600px;
-  	height: 35px;
-	background-color: #EEEEEE;
-	border: 1px solid #95A5A6;
-	float: left;
-	margin-top: 15px;
+.chat-field {
+    width: 600px;
+    height: 35px;
+    background-color: #EEEEEE;
+    border: 1px solid #95A5A6;
+    float: left;
+    margin-top: 15px;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
 }
